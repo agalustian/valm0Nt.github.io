@@ -1,0 +1,144 @@
+#schedule {
+  width: 900px;
+  position: absolute;
+  margin:0;
+  color: #073642;
+  font-family: cursive;
+  font-size: 14px;
+  left: 50%;
+  transform: translate(-50% , 0%);
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+h3 {
+  border-bottom: 2px solid lightcoral;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul > li {
+  margin-top: 10px;
+  vertical-align: middle;
+}
+
+ul > li > div, ul > li > a {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.lecture-room {
+  width: 10px;
+}
+
+.lection-theme {
+  width: 160px;
+  color: lightcoral;
+}
+
+.school-field {
+  width:250px;
+}
+
+.lector {
+  width:150px;
+  cursor: pointer;
+}
+.lector:hover {
+  color: lightcoral;
+}
+
+.lector:active {
+  color: red;
+}
+
+.company {
+  width:80px;
+}
+
+.lection-date {
+  width: 80px;
+}
+
+.material-link {
+  width:85px;
+}
+
+.video-link {
+  width: 60px;
+}
+
+.filter-field {
+  display:block;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 150px
+}
+
+#start-filter {
+  display:block;
+  width:100px;
+  height:30px;
+}
+
+#modal-window {
+  z-index: 100;
+  position: fixed;
+  width: 650px;
+  height: 270px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.avatar {
+  display: inline-block;
+}
+
+.image {
+  width: 240;
+  height: 240px;
+}
+
+.info-field {
+  display: inline-block;
+  margin-left: 50px;
+  width: 55%;
+  vertical-align: top;
+}
+
+#close-modal {
+  width: 55px;
+  height: 30px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+}
+
+#close-modal:hover {
+  color: lightcoral;
+}
+
+#veil {
+  width: 100%;
+  height: 100%;
+  opacity: 0.85;
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+  top: 0px;
+}
+
+ @media only screen and (max-device-width:900px){
+   #schedule {
+     font-family: serif;
+   }
+}
